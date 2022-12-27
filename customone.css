@@ -2,15 +2,19 @@
 .aside-minimize .bottom-menus {
     display: none !important;
 }
+
 .aside-minimize .connect-with-us {
     display: none !important;
 }
+
 .aside-minimize .Learn-more {
     display: none !important;
 }
+
 .aside-minimize .Downloadour-Appfrom {
     display: none !important;
 }
+
 .mb-05 {
     margin: 5px !important;
 }
@@ -31,7 +35,7 @@
     color: #000 !important;
 }
 
-.aside-menu .menu-nav > .menu-item > .menu-link {
+.aside-menu .menu-nav>.menu-item>.menu-link {
     padding: 2px 8px !important;
 }
 
@@ -51,27 +55,18 @@
     float: left;
     text-align: center;
     color: #fff;
-    width: 100%;
+    width: 166px;
     border: 1px solid #949494;
-    margin: auto 0px;
-    height: 55px;
+    margin: 0px;
+    height: 38px;
     line-height: 36px;
-    padding: 0px 0;
-    display: flex;
-    padding-left: 20px;
-    align-items: center;
 }
 
-.aside-menu
-.menu-nav
-> .menu-item:not(.menu-item-parent):not(.menu-item-open):not(
-        .menu-item-here
-    ):not(.menu-item-active):hover
-> .menu-link {
+.aside-menu .menu-nav>.menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-link {
     background-color: #eebf35 !important;
 }
 
-.aside-menu .menu-nav > .menu-item {
+.aside-menu .menu-nav>.menu-item {
     position: relative;
     margin: 0;
     border: 1px solid #949494;
@@ -144,10 +139,10 @@
 .header-bottom-section {
     background-image: url(../media/bg/loginbg.png);
     background-size: cover;
-    height: 157px;
+    height: 150px;
     width: 100%;
-    /* position: absolute;
-    margin: 128px 0 0 0; */
+    position: absolute;
+    margin: 128px 0 0 0;
 }
 
 .user-img {
@@ -197,7 +192,7 @@
     color: #000;
     font-weight: 600 !important;
     font-size: 36px;
-    padding: 0 0 0 0;
+    padding: 55px 0 0 0;
 }
 
 .dash-ct h2 {
@@ -210,6 +205,7 @@
     color: #000;
 }
 
+
 .ash-round {
     background: #949494 !important;
 }
@@ -221,7 +217,7 @@
 .review-panels {
     background: #e7e6e6;
     height: 300px;
-    border-radius: 10px;
+
 }
 
 .review-panels h2 {
@@ -254,7 +250,7 @@
 }
 
 .dash-ct {
-    margin: 0 0 0 0;
+    margin: 107px 0 0 0;
 }
 
 .notification-panels {
@@ -470,6 +466,7 @@
     height: 840px;
     width: 100%;
     border-radius: 10px;
+
 }
 
 .profile-tittle {
@@ -526,6 +523,7 @@
 
 .active-profile {
     background: #eebf35 !important;
+
 }
 
 .active-profile a {
@@ -925,6 +923,7 @@
     padding: 8px 0 0 17px;
 }
 
+
 .start-date {
     background: #f2f2f2;
     width: 30%;
@@ -945,6 +944,7 @@
     background: #f2f2f2;
     width: 36%;
     float: left;
+
 }
 
 .start-date h1 {
@@ -1202,7 +1202,7 @@
     width: 0;
     height: 0;
     border-width: 0 83px 55px 0;
-    border-color: transparent #ff0000 transparent transparent;
+    border-color: transparent #FF0000 transparent transparent;
     border-style: solid;
     position: relative;
     top: -122px;
@@ -1235,6 +1235,9 @@
     font-weight: bold;
 }
 
+
+
+
 /*----login-page-----*/
 
 .login-signin-on .login-form {
@@ -1254,7 +1257,7 @@
 
 .header-main {
     background: #262626;
-    /* position: relative; */
+    position: relative;
 }
 
 .right-section {
@@ -1285,6 +1288,7 @@
     display: block;
     max-width: 440px;
     margin: 0 auto;
+;
 }
 
 .login-signin .form-control.form-control-solid {
@@ -1347,6 +1351,7 @@
     width: 40%;
 }
 
+
 .sign_form {
     position: relative;
     margin: auto;
@@ -1358,6 +1363,9 @@
     box-shadow: none;
     background-size: cover !important;
 }
+
+
+
 
 .sign-up_form {
     position: relative;
@@ -1398,6 +1406,8 @@
     top: 65px;
 }
 
+
+
 .icss-banner {
     position: absolute;
     width: 300px;
@@ -1407,7 +1417,12 @@
     z-index: -1;
 }
 
+
+
+
 /*----login-page-----*/
+
+
 
 /*-----Signup-----*/
 .logo-top-left {
@@ -1420,6 +1435,7 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     justify-content: center;
+
 }
 
 .signu-up-tab {
@@ -1483,6 +1499,8 @@
     width: 80%;
 }
 
+
+
 .__logForgot {
     margin-top: 15px;
     display: inline-block;
@@ -1497,6 +1515,7 @@
 
 .__logregister a {
     color: #278763;
+
 }
 
 .__logregister a:hover {
@@ -1504,10 +1523,14 @@
     text-decoration: underline !important;
 }
 
+
+
 .sgntrm145 a:hover {
     color: #278763;
     text-decoration: underline !important;
 }
+
+
 
 .sign_footer {
     margin-top: 15px;
@@ -1520,9 +1543,10 @@
 .bank-seller-dashboard-section {
     background-image: url(../media/bg/bank-seller-bg.png);
     background-size: cover;
-    height: 130vh;
+    height: 500px;
     width: 100%;
-    margin: -30px 0 0 0;
+    position: absolute;
+    margin: 254px 0 0 0;
 }
 
 .cate-lists {
@@ -1534,7 +1558,7 @@
 
 .search-cate {
     position: relative;
-    top: 43px;
+    top: 65px;
     right: -8px;
 }
 
@@ -1545,7 +1569,7 @@
 }
 
 .search-category-main {
-    height: 50px;
+    height: 80px;
     width: 100%;
     padding: 0 0 0 65px;
 }
@@ -1587,6 +1611,8 @@
     font-weight: 600;
     margin: 20px 0 0 0;
     padding: 0 0 0 20px;
+    position: relative;
+    z-index: 9;
 }
 
 .bank-account-span {
@@ -1723,9 +1749,9 @@
     text-decoration: underline;
 }
 
-/* .bank-attachment {
+.bank-attachment {
     min-height: 300px;
-} */
+}
 
 .attach-right-grid {
     border-right: 10px solid #c00000;
@@ -1756,11 +1782,6 @@
 
 .branch-style {
     top: 20px !important;
-    height: 75px !important;
-    width: 20px !important;
-}
-.branch-style-update {
-    top: 20px !important;
     height: 80px !important;
     width: 20px !important;
 }
@@ -1775,10 +1796,12 @@
     width: 100%;
 }
 
+
 .__dsurtzc {
     position: absolute;
     bottom: 30px;
 }
+
 
 .__bUsers_details {
     padding-top: 180px;
@@ -1851,7 +1874,7 @@
     border: none;
     padding: 0 0 0 0;
     z-index: 999999;
-    position: relative;
+    position: absolute;
 }
 
 .upload-required-Files {
@@ -1898,14 +1921,12 @@
 
 .service-bottom-area .form-control {
     background: #fff !important;
-    border: 20px solid #f2f2f2;
+    border: 10px solid #f2f2f2;
 }
 
 .red-status {
     background: #d01d24 !important;
     top: 0px;
-    width: 28px !important;
-    height: 75px !important;
 }
 
 .yellow-status-view {
@@ -1941,7 +1962,7 @@
 
 .span-placelist {
     background: #cdcdcd;
-    max-width: fit-content;
+    float: left;
     padding: 10px;
     margin: 30px 10px 0 0;
     border: 1px solid #cdcdcd;
@@ -1997,7 +2018,7 @@
     position: absolute;
     right: 0px;
     float: left;
-    margin: -86px 0 0 0;
+    margin: -58px 0 0 0;
 }
 
 .top-service-bottom p .red {
@@ -2047,12 +2068,12 @@
     position: absolute;
     right: 91px;
     width: 110px;
-    height: 79px;
+    height: 83px;
     background: #4a8522;
     color: #fff;
     padding: 32px 0 0 0;
     text-align: center;
-    margin: -69px 0 0 0;
+    margin: -73px 0 0 0;
 }
 
 .serve-click {
@@ -2116,6 +2137,7 @@
     margin: 15px 0 0 0;
 }
 
+
 .number-order {
     background: #2a2928;
     color: #fff;
@@ -2163,11 +2185,13 @@
     padding: 0 0 0 0;
 }
 
+
 .popup-your-decision p {
     color: #000;
     font-weight: normal;
     font-size: 18px;
     width: 99%;
+
 }
 
 .popup-your-decision .form-control {
@@ -2200,6 +2224,7 @@
     background: #205f6e;
     color: #eebf35;
     font-weight: bold;
+
 }
 
 .popup-your-decision .form-control {
@@ -2238,19 +2263,435 @@
     background: #2a2928 !important;
     color: #eebf35 !important;
 }
+
 .gray-bt a {
     color: #eebf35 !important;
 }
 
-/* ============ desktop view ============ */
-
-@media all and (min-width: 992px) {
+.rfx-dashboard-section {
+    background-image: url(../media/bg/rfxbanner.png);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    margin: 254px 0 0 0;
 }
 
+.rfx-wrapper {
+    min-height: 1500px;
+}
+
+.premium-page {
+    background: #D3EFF4;
+    padding: 5px;
+    margin: 30px 0 0 0;
+    float: left;
+}
+
+.left-pe-icon {
+    float: left;
+}
+
+.premium-page p {
+    color: #205F6E !important;
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+    padding: 13px 0 0 0;
+}
+
+.pre-nav {
+    float: right;
+}
+
+.span-tiles {
+    background: #1C0644;
+    width: 23%;
+    border-radius: 15px;
+    padding: 10px;
+    min-height: 415px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.span-tiles h2 {
+    color: #fff;
+}
+
+.span-tiles p {
+    color: #fff;
+    font-size: 15px;
+    margin: 0 0 50px 0;
+}
+
+.subscription-span {
+    background: #2A2928;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    float: left;
+    width: 100%;
+    margin: 0 10px 10px 0;
+}
+
+
+.subscription-span h1 {
+    font-size: 15px;
+}
+
+.subscription-span h3 {
+    font-size: 13px;
+}
+
+.price-sub {
+    float: right;
+}
+
+.price-sub-detail {
+    float: left;
+}
+
+.span-deals {
+    background-image: url(../media/bg/span-deals.png);
+    background-size: cover;
+}
+
+.sample-offer {
+    background-image: url(../media/bg/sample-offer.png);
+    background-size: cover;
+}
+
+.sub-free {
+    background: #205F6E;
+    bottom: 0px;
+    margin: 150px 0 0 0;
+}
+
+.last-tile-sub {
+    background: #fff;
+    color: #000 !important;
+}
+
+.last-tile-sub h2 {
+    color: #000;
+}
+
+.last-tile-sub p {
+    color: #000;
+}
+
+.sample-offer h2 {
+    color: #000;
+}
+
+.sample-offer p {
+    color: #000;
+}
+
+.price-bottom {
+    margin: 168px 0 0 0;
+}
+
+.price-bottom-last {
+    margin: 200px 0 0 0;
+}
+
+.premium-dashboard-section {
+    background-image: url(../media/bg/premium-dashboard.png);
+    background-size: cover;
+    height: 2000px;
+    width: 100%;
+    position: absolute;
+    margin: 254px 0 0 0;
+}
+
+.sample-offers-tiles {
+    background: #3B3838;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.right-offer {
+    padding: 30px;
+    color: #fff;
+}
+
+.standard-offer {
+    background-image: url(../media/bg/standard-offer.png);
+    background-size: cover;
+}
+
+.Business-Highlights {
+    background-image: url(../media/bg/Business-Highlights.png);
+    background-size: cover;
+}
+
+.standard-deal {
+    margin: 333px 0 0 0;
+}
+
+.price-sub h4 {
+    font-size: 13px;
+}
+
+.advertising-lits {
+    margin: 173px 0 0 0;
+}
+
+.remove-fee {
+    background: #2a2928;
+}
+
+.remove-fee a {
+    color: #ffff;
+}
+
+.busines-high {
+    background: #2a2928;
+}
+
+.busines-high h2 {
+    color: #fff;
+}
+
+.busines-high h4 {
+    color: #fff;
+}
+
+.sample-text-tile {
+    background: #205f6e;
+}
+
+.sample-text-tile h2 {
+    color: #eebf35;
+}
+
+.sample-text-tile h4 {
+    color: #eebf35;
+}
+
+.bottom-service-center {
+    background: #eebf35;
+    width: 100%;
+    float: left;
+    padding: 100px;
+}
+
+.bottom-service-center p {
+    font-size: 20px;
+}
+
+.seller-service-click {
+    background: #2a2928;
+    padding: 20px;
+    color: #eebf35;
+}
+
+
+/* slider */
+
+
+/* CREATE AN OFFER
+ */
+.create-offer-div {
+    min-height: 280px;
+}
+
+.bids-cate {
+    position: absolute;
+    left: 79%;
+    top: 122px;
+}
+
+.bid-green {
+    background: #70ad47 !important;
+}
+
+.rfx-bid-div {
+    min-height: 155px;
+    margin: 25px 0 20px 0;
+}
+
+.rfx-detail-nav {
+    position: absolute;
+    right: 0px;
+    margin: -50px 0 0 0;
+}
+
+.red-color {
+    color: #C00000 !important;
+}
+
+.over-lay-outer {
+    z-index: 99;
+    background: #000000db;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.your-decision {
+    background: #f2f2f2;
+    height: 430px;
+    position: relative;
+    z-index: 999;
+    margin: 84px auto;
+    width: 45%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.your-decision h1 {
+    color: #000;
+    margin: 30px 0 0 0;
+    font-weight: bold;
+}
+
+.close-decision h2 {
+    color: #000;
+    margin: 30px 0 0 0;
+    font-weight: bold;
+}
+
+.selected-category {
+    background: #fff;
+    margin: 30px;
+    min-height: 200px;
+}
+
+.selected-category p {
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+    padding: 16px;
+}
+
+.reject-buttons a {
+    background: #d01d24;
+    padding: 10px 40px 15px 40px;
+    color: #fff;
+    border-radius: 25px;
+    margin: 0 20px 0 0;
+    font-size: 15px;
+}
+
+.reject-buttons {
+    margin: 50px 0 0 0;
+}
+
+.aprove-bt {
+    background: #00b050 !important;
+}
+
+.resubmit {
+    background: #eebf35 !important;
+}
+
+.close-tag svg {
+    fill: #000;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+/* ---22-12-2022 ---*/
+
+.span-more-pic {
+    background: #5E6062;
+    float: left;
+    height: 130px;
+    width: 161px;
+    margin: 0 10px 0 0;
+}
+
+.rfx-Details {
+    height: 1140px !important
+}
+
+.Create-Offer-Counteroffer {
+    margin: 150px 0 0 0;
+}
+
+.addscope-discription {
+    width: 100% !important;
+}
+
+.amount-aed {
+    background: #F2F2F2;
+    float: left;
+    padding: 10px;
+    width: 84%;
+    text-align: center;
+    height: 118px;
+    margin: 0 0 8px 0;
+}
+
+.client-budget {
+    float: left;
+}
+
+.my-submission-search {
+    width: 100% !important;
+}
+
+.my-submission-out {
+    width: 100% !important;
+}
+
+.accepted-blue {
+    background-color: #205f6e;
+    color: #fff;
+}
+
+.seller-question {
+    margin: 30px 0 20px 0;
+    height: 700px;
+}
+
+.Questionnaire-div {
+    width: 100%;
+}
+
+.question-condition-box h3 {
+    font-size: 20px;
+}
+
+.question-condition-box p {
+    font-size: 11px;
+}
+
+.quest-doc {
+    margin: -47px 35px 0 0;
+}
+.total-sub-offer p {
+    color:#000;
+    font-weight:bold;
+    font-size: 20px;
+}
+.total-sub-offer h1 {
+    color:#000;
+    font-weight:bold;
+}
+.total-sub-offer h3 {
+    color:#000;
+    font-weight:bold;
+}
+.total-sub-offer {
+    padding: 50px 0 0 0;
+}
+
+
 /* ============ desktop view ============ */
 
-@media all and (min-width: 992px) {
-}
+@media all and (min-width: 992px) {}
+
+
+
+/* ============ desktop view ============ */
+
+@media all and (min-width: 992px) {}
+
 
 @media (max-width: 1399px) {
     .fill-up-profile-form {
@@ -2275,14 +2716,17 @@
     }
 }
 
-@media (max-width: 1199px) {
-}
+@media (max-width: 1199px) {}
+
 
 /* ============ desktop view .end// ============ */
 
+
 /* ============ small devices ============ */
 
+
 @media (max-width: 991px) {
+
     #kt_body {
         background: none !important;
     }
@@ -2311,142 +2755,12 @@
     .left-logo-signup {
         display: none;
     }
+
 }
 
-@media (max-width: 768px) {
-}
 
-@media (max-width: 576px) {
-}
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
 
 /* ============ small devices ============ */
-/* ============= haseeb ================= */
-.button-line {
-    border-bottom: 2px solid black;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    right: 10%;
-}
-.top-heading {
-    margin-bottom: 8%;
-}
-.top-heading h1 {
-    font-weight: 600;
-    font-size: 35px;
-}
-.Commercial-section {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    height: 80px;
-    align-items: center;
-    background-color: white;
-    padding: 0 10% 0 2%;
-    border-right: 20px solid #00b050;
-}
-.License-section {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    height: 80px;
-    align-items: center;
-    background-color: white;
-    padding: 0 10% 0 2%;
-    border-right: 20px solid #c00000;
-}
-.Commercial-section .fw-bold {
-    font-weight: bold;
-}
-.License-section .fw-bold {
-    font-weight: bold;
-}
-.files-section {
-    background-color: #f2f2f2;
-    color: #346d7a;
-}
-.pdf-card-border {
-    border-top: 1px solid #c4c4c4;
-    border-bottom: 1px solid #c4c4c4;
-    border-left: 1px solid #c4c4c4;
-    cursor: pointer;
-    align-items: center;
-    min-height: 90px;
-}
-.active-pdf {
-    border-right: 10px solid forestgreen;
-}
-.remove {
-    margin: 0 0 0 0;
-    color: #c00000;
-    font-weight: bold;
-    text-decoration: underline;
-}
-.pending-pdf {
-    border-right: 10px solid #ffa31a;
-}
-.pdf-cards_ {
-    height: 215px;
-    display: flex;
-    align-items: center;
-}
-.profile_img {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    margin-right: 26px;
-}
-.create-services h1 {
-    color: #000;
-    font-weight: 600 !important;
-    font-size: 36px;
-}
-.create-services h4 {
-    color: #000;
-    font-weight: 600 !important;
-    font-size: 30px;
-}
-.bank-details_ h1 {
-    font-size: 28px;
-    font-weight: 600 !important;
-}
-.bank-details_ h4 {
-    font-size: 19px;
-    font-weight: 600 !important;
-}
-.banking_cards_2 h2 {
-    word-break: break-word;
-}
-.service-description-bg {
-    background-color: #f2f2f2 !important;
-}
-.service-description-bg::placeholder {
-    color: #205f6e !important;
-}
-.branch-style-edit {
-    top: 20px !important;
-    height: 80px !important;
-    width: 20px !important;
-}
-.branch-heading_ {
-    height: 74px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f2f2f2;
-}
-.branch-input-readonly_ {
-    border-radius: 0;
-    border-right: 6px solid #4a8522;
-    height: 75px;
-    font-size: 20px;
-    font-weight: 600;
-}
-.branch-input-readonly_::placeholder {
-    color: #4a8522 !important;
-}
-input::placeholder {
-    color: black !important;
-    opacity: 1;
-}
